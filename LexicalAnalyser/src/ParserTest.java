@@ -17,7 +17,8 @@ public class ParserTest {
 	{
 		LexicalAnalyzer analyzer = new LexicalAnalyzer();
 		Parser parser = new Parser(analyzer.lexList);
-		//analyzer.yazdir();
+		analyzer.yazdir();
+		
 		parser.startParsing();
 		
 		
